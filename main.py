@@ -29,7 +29,7 @@ chrome_options.add_argument("--window-size=1920x1080")
 # current directory
 chrome_driver = os.getcwd() +"/chromedriver"
 
-driver = webdriver.Chrome('/Users/kanyuanliang/Documents/GitHub/web-scraper/chromedriver')
+driver = webdriver.Chrome('/Users/kanyuanliang/Documents/GitHub/shopping-web-scraper/chromedriver')
 
 # Getting user input
 search = input('Enter the item you want to search for: ')
