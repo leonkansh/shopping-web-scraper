@@ -5,6 +5,7 @@ is a Python console app that finds the lowest price among the largest E-commerce
 ### Setup
 - Download and install Python
 Once you download the repository and ready to go on your terminal, type the following in your terminal:
+
 Windows:
 
 `sudo apt update && upgrade`
