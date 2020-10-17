@@ -49,3 +49,6 @@ After you have downloaded the right version, make sure to replace the _old_ [chr
 
 ### Report a Bug
 > For filing bugs, suggesting improvements, or requesting new features, please open an [issue](https://github.com/leonkansh/shopping-web-scraper/issues).
+
+### Feautre Request
+> This project welcome all the feedback and feature. Please contact me through leon.can@outlook.com
