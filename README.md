@@ -35,5 +35,7 @@ If the program doesn't run, make sure you choose Google Chrome as your default b
 - Error message?
 
 If you received an error message says, `selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 84`, or something like that, make sure you use the correct version of ChromeDriver. The correct version in this respository works for Chrome 
-Version 85 64-bit Mac OS. Here is a [link](https://sites.google.com/a/chromium.org/chromedriver/downloads) to update your ChromeDriver. 
+Version 85 64-bit Mac OS. 
+
+Here is a [link](https://sites.google.com/a/chromium.org/chromedriver/downloads) to update your ChromeDriver. 
 After you have downloaded the right version, make sure to replace the _old_ [chromedriver](https://github.com/leonkansh/shopping-web-scraper/blob/master/chromedriver) in the **shopping-web-scraper** folder.
