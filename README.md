@@ -38,4 +38,4 @@ If you received an error message says, `selenium.common.exceptions.SessionNotCre
 Version 85 64-bit Mac OS. 
 
 Here is a [link](https://sites.google.com/a/chromium.org/chromedriver/downloads) to update your ChromeDriver. 
-After you have downloaded the right version, make sure to replace the _old_ [chromedriver](https://github.com/leonkansh/shopping-web-scraper/blob/master/chromedriver) in the **shopping-web-scraper** folder.
+After you have downloaded the right version, make sure to replace the _old_ [chromedriver](https://github.com/leonkansh/shopping-web-scraper/blob/master/chromedriver) in the **shopping-web-scraper** local folder.
