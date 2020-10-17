@@ -42,9 +42,11 @@ search = search.replace(' ', '+') # query parameters
 # ----call the functions----
 from ebay import searcheBay
 eBay_price, URL_e = searcheBay(search, requests, BeautifulSoup)
+print(URL_e)
 
 from amazon import searchAmazon
 amazon_price, URL = searchAmazon(search, requests, BeautifulSoup, driver)
+print(URL)
 
 # from bestbuy import searchBestBuy
 # searchBestBuy(search, BeautifulSoup, driver)

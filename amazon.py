@@ -23,17 +23,17 @@ def searchAmazon(search, requests, BeautifulSoup, driver):
         # print(soup.select_one('span.a-size-medium').get_text())
         runs += 1
 
-    # runs = 0
-    # results = soup.findAll('span', attrs={'class': 'a-offscreen'})
-    # for listing in results:
-    #     if runs >= 1: break
-    #     element = soup.select_one('span.a-offscreen')
-    #     if None in element:
-    #         continue
-    #     print(element.get_text())
-    #     print()
-    #     print()
-    #     runs += 1
+    runs = 0
+    results = soup.findAll('span', attrs={'class': 'a-offscreen'})
+    for listing in results:
+        if runs >= 1: break
+        element = soup.select_one('span.a-offscreen')
+        if None in element:
+            continue
+        print(element.get_text())
+        print()
+        print()
+        runs += 1
 
     # save the price
     amazon_price = item_price.text.strip() # call strip() to remove extraneous characters
