@@ -1,4 +1,5 @@
 def comparePrices(eBay_price, amazon_price, URL_e, URL):
+    print()
     print('Comparing the three prices...')
 
     elected_link = ''
