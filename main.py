@@ -41,11 +41,29 @@ search = search.replace(' ', '+') # query parameters
 
 # ----call the functions----
 from ebay import searcheBay
-eBay_price, URL_e = searcheBay(search, requests, BeautifulSoup)
+ebay_result = False
+while ebay_result is False:
+    try:
+        eBay_price, URL_e = searcheBay(search, requests, BeautifulSoup)
+        ebay_result = True
+    except (AttributeError):
+        print("counter an attribute error")
+        print("loading...")
+
 print(URL_e)
 
 from amazon import searchAmazon
-amazon_price, URL = searchAmazon(search, requests, BeautifulSoup, driver)
+amazon_result = False
+amazon_count = 0
+while amazon_result is False and amazon_count <= 10:
+    try:
+        amazon_price, URL = searchAmazon(search, requests, BeautifulSoup, driver)
+        amazon_result = True
+        amazon_count += 1
+    except (AttributeError):
+        print("counter an attribute error")
+        print("loading...", amazon_count, "times")
+
 print(URL)
 
 # from bestbuy import searchBestBuy
